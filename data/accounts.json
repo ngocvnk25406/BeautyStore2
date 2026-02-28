@@ -1,0 +1,58 @@
+[
+  {
+    "account_id": "ADM001",
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "customer_id": null,
+    "full_name": "Quản trị viên"
+  },
+  {
+    "account_id": "KH001",
+    "username": "anbinh",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C001",
+    "full_name": "Phan Anh Bình"
+  },
+  {
+    "account_id": "KH002",
+    "username": "thanhbinh",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C002",
+    "full_name": "Lê Thanh Bình"
+  },
+  {
+    "account_id": "KH003",
+    "username": "baomai",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C003",
+    "full_name": "Nguyễn Bảo Mai"
+  },
+  {
+    "account_id": "KH004",
+    "username": "thanhlinh",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C004",
+    "full_name": "Nguyễn Thanh Linh"
+  },
+  {
+    "account_id": "KH005",
+    "username": "huutruc",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C005",
+    "full_name": "Nguyễn Hữu Trúc"
+  },
+  {
+    "account_id": "KH006",
+    "username": "anhnam",
+    "password": "kh123",
+    "role": "customer",
+    "customer_id": "C006",
+    "full_name": "Vũ Anh Nam"
+  }
+]

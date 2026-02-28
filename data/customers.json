@@ -1,0 +1,187 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "Phan Anh Bình",
+    "phone": "0999278467",
+    "skin-type": "Da hỗ hợp thiên dầu",
+    "skin_concern": [
+      "Mụn nội tiết",
+      "Lỗ chân lông to"
+    ],
+    "rank": "Đồng",
+    "loyalty_points": 58
+  },
+  {
+    "customer_id": "C002",
+    "name": "Lê Thanh Bình",
+    "phone": "0944254866",
+    "skin-type": "Da hỗ hợp thiên khô",
+    "skin_concern": [
+      "Thâm mụn",
+      "Dư thừa bã nhờn"
+    ],
+    "rank": "Đồng"
+  },
+  {
+    "customer_id": "C003",
+    "name": "Nguyễn Bảo Mai",
+    "phone": "0937724671",
+    "skin-type": "Da hỗ hợp thiên dầu",
+    "skin_concern": [
+      "Mụn đầu đen",
+      "Sẹo mụn",
+      "Da thô ráp"
+    ],
+    "rank": "Bạc"
+  },
+  {
+    "customer_id": "C004",
+    "name": "Nguyễn Thanh Linh",
+    "phone": "0963212349",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Mụn viêm",
+      "Da thiếu sức sống"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C005",
+    "name": "Nguyễn Hữu Trúc",
+    "phone": "0961380840",
+    "skin-type": "Da nhạy cảm",
+    "skin_concern": [
+      "Nám"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C006",
+    "name": "Vũ Anh Nam",
+    "phone": "0967308318",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Mụn ẩn"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C007",
+    "name": "Trần Minh Nam",
+    "phone": "0968955567",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Da dễ lên mụn",
+      "Viêm da nhẹ",
+      "Da sau treatment",
+      "Mụn đầu đen"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C008",
+    "name": "Võ Minh Linh",
+    "phone": "0973770170",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Quầng thâm mắt",
+      "Da dễ dị ứng",
+      "Da mẩn đỏ",
+      "Da không đều màu"
+    ],
+    "rank": "Đồng",
+    "loyalty_points": 37
+  },
+  {
+    "customer_id": "C009",
+    "name": "Hoàng Đức Anh",
+    "phone": "0927270089",
+    "skin-type": "Da khô",
+    "skin_concern": [
+      "Mụn nội tiết",
+      "Da dễ lên mụn",
+      "Tăng sắc tố"
+    ],
+    "rank": "Bạc"
+  },
+  {
+    "customer_id": "C010",
+    "name": "Phan Ngọc Bình",
+    "phone": "0934692870",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Bít tắc lỗ chân lông",
+      "Mụn ẩn"
+    ],
+    "rank": "Bạc"
+  },
+  {
+    "customer_id": "C011",
+    "name": "Vũ Minh Chi",
+    "phone": "0965276605",
+    "skin-type": "Da khô",
+    "skin_concern": [
+      "Mụn nội tiết"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C012",
+    "name": "Trần Bảo Hạnh",
+    "phone": "0953702314",
+    "skin-type": "Da hỗ hợp thiên khô",
+    "skin_concern": [
+      "Da cháy nắng",
+      "Quầng thâm mắt",
+      "Da thiếu nước"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C013",
+    "name": "Lê Ngọc Dũng",
+    "phone": "0937682792",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Mụn nội tiết",
+      "Mụn viêm"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C014",
+    "name": "Phạm Bảo Nam",
+    "phone": "0987426243",
+    "skin-type": "Da dầu",
+    "skin_concern": [
+      "Da mẩn đỏ",
+      "Dư thừa bã nhờn",
+      "Nám",
+      "Bít tắc lỗ chân lông"
+    ],
+    "rank": "Vàng"
+  },
+  {
+    "customer_id": "C015",
+    "name": "Hoàng Bảo Nam",
+    "phone": "0950086971",
+    "skin-type": "Da khô",
+    "skin_concern": [
+      "Sẹo mụn",
+      "Quầng thâm mắt"
+    ],
+    "rank": "Bạc"
+  },
+  {
+    "name": "Vũ Như Ngọc",
+    "phone": "254060708",
+    "email": "ngocvnk25406@st.uel.edu.vn",
+    "skin-type": "da dầu",
+    "skin_concern": [
+      "mụn"
+    ],
+    "rank": "Đồng",
+    "loyalty_points": 0,
+    "customer_id": "C016"
+  }
+]

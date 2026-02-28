@@ -1,0 +1,935 @@
+[
+  {
+    "product_id": "P0001",
+    "name": "Nước tẩy trang Micellar Water",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm",
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Micellar"
+    ],
+    "effects": [
+      "Làm sạch dịu nhẹ"
+    ],
+    "price": 183063,
+    "stock_quantity": 121
+  },
+  {
+    "product_id": "P0002",
+    "name": "Mặt nạ ngủ dưỡng sáng da",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da xỉn màu"
+    ],
+    "ingredients": [
+      "Niacinamide",
+      "HA"
+    ],
+    "effects": [
+      "Cấp ẩm",
+      "Sáng da"
+    ],
+    "price": 192653,
+    "stock_quantity": 1
+  },
+  {
+    "product_id": "P0003",
+    "name": "Serum trị nám chuyên sâu",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da nám"
+    ],
+    "ingredients": [
+      "Tranexamic",
+      "Arbutin"
+    ],
+    "effects": [
+      "Giảm nám"
+    ],
+    "price": 311375,
+    "stock_quantity": 28
+  },
+  {
+    "product_id": "P0004",
+    "name": "Kem dưỡng Cicaplast Baume B5",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da kích ứng",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "B5",
+      "Madecassoside"
+    ],
+    "effects": [
+      "Phục hồi hàng rào da"
+    ],
+    "price": 391490,
+    "stock_quantity": 58
+  },
+  {
+    "product_id": "P0005",
+    "name": "Tinh chất nghệ Hưng Yên",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "da mụn",
+      "da thâm"
+    ],
+    "ingredients": [
+      "Curcumin",
+      "Niacinamide"
+    ],
+    "effects": [
+      "Giảm thâm",
+      "Sáng da"
+    ],
+    "price": 363668,
+    "stock_quantity": 97
+  },
+  {
+    "product_id": "P0006",
+    "name": "Serum trị thâm mụn mờ sẹo",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da thâm mụn"
+    ],
+    "ingredients": [
+      "Tranexamic",
+      "Vitamin C"
+    ],
+    "effects": [
+      "Mờ thâm"
+    ],
+    "price": 414608,
+    "stock_quantity": 89
+  },
+  {
+    "product_id": "P0007",
+    "name": "Nước dưỡng tóc tinh dầu bưởi",
+    "brand": "Cocoon",
+    "category": "Haircare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Tinh dầu bưởi",
+      "Biotin"
+    ],
+    "effects": [
+      "Giảm rụng tóc"
+    ],
+    "price": 151666,
+    "stock_quantity": 82
+  },
+  {
+    "product_id": "P0008",
+    "name": "Serum Aquafix cho da dầu",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu"
+    ],
+    "ingredients": [
+      "HA",
+      "Niacinamide"
+    ],
+    "effects": [
+      "Cấp nước nhẹ",
+      "Giảm dầu"
+    ],
+    "price": 455337,
+    "stock_quantity": 64
+  },
+  {
+    "product_id": "P0009",
+    "name": "Kem chống nắng Anthelios UVMune",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Mexoryl",
+      "Glycerin"
+    ],
+    "effects": [
+      "Chống UV",
+      "Ngừa nám"
+    ],
+    "price": 342539,
+    "stock_quantity": 21
+  },
+  {
+    "product_id": "P0010",
+    "name": "Mặt nạ bí đao",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "Bí đao",
+      "Tea tree"
+    ],
+    "effects": [
+      "Giảm dầu",
+      "Giảm mụn"
+    ],
+    "price": 522582,
+    "stock_quantity": 20
+  },
+  {
+    "product_id": "P0011",
+    "name": "Dầu gội bưởi giảm rụng",
+    "brand": "Cocoon",
+    "category": "Haircare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Tinh dầu bưởi"
+    ],
+    "effects": [
+      "Giảm rụng tóc"
+    ],
+    "price": 507114,
+    "stock_quantity": 69
+  },
+  {
+    "product_id": "P0012",
+    "name": "Nước hoa hồng không cồn",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Glycerin"
+    ],
+    "effects": [
+      "Cân bằng da"
+    ],
+    "price": 385154,
+    "stock_quantity": 96
+  },
+  {
+    "product_id": "P0013",
+    "name": "Son dưỡng môi mỡ hươu",
+    "brand": "Cocoon",
+    "category": "Bodycare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Mỡ hươu",
+      "Vitamin E"
+    ],
+    "effects": [
+      "Dưỡng môi"
+    ],
+    "price": 348089,
+    "stock_quantity": 11
+  },
+  {
+    "product_id": "P0014",
+    "name": "Kem dưỡng phục hồi Ceramides",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô",
+      "da yếu"
+    ],
+    "ingredients": [
+      "Ceramide"
+    ],
+    "effects": [
+      "Khóa ẩm",
+      "Phục hồi hàng rào da"
+    ],
+    "price": 373838,
+    "stock_quantity": 29
+  },
+  {
+    "product_id": "P0015",
+    "name": "Gel rửa mặt tràm trà",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "Tea tree",
+      "BHA nhẹ"
+    ],
+    "effects": [
+      "Giảm dầu",
+      "Ngừa mụn"
+    ],
+    "price": 387762,
+    "stock_quantity": 34
+  },
+  {
+    "product_id": "P0016",
+    "name": "Serum Lactic Acid 10%",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô",
+      "da xỉn màu"
+    ],
+    "ingredients": [
+      "Lactic Acid"
+    ],
+    "effects": [
+      "Tẩy da chết nhẹ"
+    ],
+    "price": 596656,
+    "stock_quantity": 5
+  },
+  {
+    "product_id": "P0017",
+    "name": "Gel dưỡng mắt Toleriane",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Caffeine",
+      "HA"
+    ],
+    "effects": [
+      "Giảm bọng mắt"
+    ],
+    "price": 393445,
+    "stock_quantity": 47
+  },
+  {
+    "product_id": "P0018",
+    "name": "Dầu dưỡng Rose Hip Seed Oil",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô",
+      "da lão hóa"
+    ],
+    "ingredients": [
+      "Rosehip oil"
+    ],
+    "effects": [
+      "Phục hồi",
+      "Mờ thâm"
+    ],
+    "price": 341543,
+    "stock_quantity": 12
+  },
+  {
+    "product_id": "P0019",
+    "name": "Toner dành cho da nhạy cảm",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Panthenol"
+    ],
+    "effects": [
+      "Làm dịu"
+    ],
+    "price": 250506,
+    "stock_quantity": 63
+  },
+  {
+    "product_id": "P0020",
+    "name": "Dung dịch tẩy da chết body",
+    "brand": "Dr.Ceutics",
+    "category": "Bodycare",
+    "skin-type": [
+      "da sần",
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "AHA"
+    ],
+    "effects": [
+      "Mịn da body"
+    ],
+    "price": 479091,
+    "stock_quantity": 6
+  },
+  {
+    "product_id": "P0021",
+    "name": "Gel rửa mặt Effaclar",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "Zinc PCA",
+      "Salicylic Acid"
+    ],
+    "effects": [
+      "Giảm dầu",
+      "Ngừa mụn"
+    ],
+    "price": 350084,
+    "stock_quantity": 2
+  },
+  {
+    "product_id": "P0022",
+    "name": "Gel rửa mặt AHA/BHA",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "AHA",
+      "BHA"
+    ],
+    "effects": [
+      "Làm sạch sâu"
+    ],
+    "price": 398004,
+    "stock_quantity": 1
+  },
+  {
+    "product_id": "P0023",
+    "name": "Serum phục hồi B5 Hyalu",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm",
+      "da yếu"
+    ],
+    "ingredients": [
+      "HA",
+      "B5"
+    ],
+    "effects": [
+      "Phục hồi",
+      "Cấp nước"
+    ],
+    "price": 515396,
+    "stock_quantity": 38
+  },
+  {
+    "product_id": "P0024",
+    "name": "Xịt khoáng Thermal Spring Water",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Nước khoáng Thermal"
+    ],
+    "effects": [
+      "Làm dịu",
+      "Giảm đỏ"
+    ],
+    "price": 255620,
+    "stock_quantity": 77
+  },
+  {
+    "product_id": "P0025",
+    "name": "Serum Caffeine Solution",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Caffeine"
+    ],
+    "effects": [
+      "Giảm thâm mắt"
+    ],
+    "price": 234394,
+    "stock_quantity": 23
+  },
+  {
+    "product_id": "P0026",
+    "name": "Sữa dưỡng thể Lipikar Baume",
+    "brand": "La Roche-Posay",
+    "category": "Bodycare",
+    "skin-type": [
+      "da khô",
+      "da viêm da cơ địa"
+    ],
+    "ingredients": [
+      "Shea butter"
+    ],
+    "effects": [
+      "Dưỡng ẩm sâu"
+    ],
+    "price": 235748,
+    "stock_quantity": 68
+  },
+  {
+    "product_id": "P0027",
+    "name": "Serum Buffet",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da lão hóa"
+    ],
+    "ingredients": [
+      "Peptide"
+    ],
+    "effects": [
+      "Tăng đàn hồi"
+    ],
+    "price": 497826,
+    "stock_quantity": 6
+  },
+  {
+    "product_id": "P0028",
+    "name": "Kem dưỡng giảm mụn Effaclar Duo+",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da mụn",
+      "da dầu"
+    ],
+    "ingredients": [
+      "Niacinamide",
+      "LHA"
+    ],
+    "effects": [
+      "Giảm mụn",
+      "Giảm thâm"
+    ],
+    "price": 223977,
+    "stock_quantity": 56
+  },
+  {
+    "product_id": "P0029",
+    "name": "Serum Effaclar giảm thâm mụn",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da mụn"
+    ],
+    "ingredients": [
+      "SA",
+      "Niacinamide"
+    ],
+    "effects": [
+      "Giảm thâm",
+      "Ngừa mụn"
+    ],
+    "price": 375133,
+    "stock_quantity": 50
+  },
+  {
+    "product_id": "P0030",
+    "name": "Serum Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da",
+      "da khô"
+    ],
+    "ingredients": [
+      "HA",
+      "B5"
+    ],
+    "effects": [
+      "Cấp nước"
+    ],
+    "price": 247784,
+    "stock_quantity": 39
+  },
+  {
+    "product_id": "P0031",
+    "name": "Kem chống nắng bí đao",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da hỗn hợp"
+    ],
+    "ingredients": [
+      "Zinc oxide",
+      "Vitamin E"
+    ],
+    "effects": [
+      "Chống nắng",
+      "Giảm dầu"
+    ],
+    "price": 463490,
+    "stock_quantity": 56
+  },
+  {
+    "product_id": "P0032",
+    "name": "Nước tẩy trang Hoa Hồng",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Hoa hồng",
+      "Micellar"
+    ],
+    "effects": [
+      "Làm sạch",
+      "Dịu da"
+    ],
+    "price": 216571,
+    "stock_quantity": 8
+  },
+  {
+    "product_id": "P0033",
+    "name": "Kem trị nám Pure Vitamin C10",
+    "brand": "La Roche-Posay",
+    "category": "Skincare",
+    "skin-type": [
+      "da xỉn màu"
+    ],
+    "ingredients": [
+      "Vitamin C"
+    ],
+    "effects": [
+      "Sáng da",
+      "Mờ nám"
+    ],
+    "price": 504721,
+    "stock_quantity": 51
+  },
+  {
+    "product_id": "P0034",
+    "name": "Sữa rửa mặt Squalane Cleanser",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "Squalane"
+    ],
+    "effects": [
+      "Làm sạch dịu nhẹ"
+    ],
+    "price": 274199,
+    "stock_quantity": 37
+  },
+  {
+    "product_id": "P0035",
+    "name": "Tẩy da chết AHA 30% + BHA 2%",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da sần"
+    ],
+    "ingredients": [
+      "AHA",
+      "BHA"
+    ],
+    "effects": [
+      "Tẩy da chết",
+      "Sáng da"
+    ],
+    "price": 224444,
+    "stock_quantity": 63
+  },
+  {
+    "product_id": "P0036",
+    "name": "Tẩy da chết cà phê Đắk Lắk",
+    "brand": "Cocoon",
+    "category": "Bodycare",
+    "skin-type": [
+      "mọi loại da",
+      "da khô"
+    ],
+    "ingredients": [
+      "Cà phê",
+      "Bơ cacao",
+      "Vitamin E"
+    ],
+    "effects": [
+      "Tẩy tế bào chết",
+      "Mịn da"
+    ],
+    "price": 440187,
+    "stock_quantity": 18
+  },
+  {
+    "product_id": "P0037",
+    "name": "Serum Vitamin C+ Ferulic",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da xỉn màu"
+    ],
+    "ingredients": [
+      "Vitamin C",
+      "Ferulic"
+    ],
+    "effects": [
+      "Sáng da",
+      "Chống oxy hóa"
+    ],
+    "price": 397185,
+    "stock_quantity": 100
+  },
+  {
+    "product_id": "P0038",
+    "name": "Serum Alpha Arbutin 2%",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da thâm nám"
+    ],
+    "ingredients": [
+      "Arbutin"
+    ],
+    "effects": [
+      "Giảm nám"
+    ],
+    "price": 205579,
+    "stock_quantity": 67
+  },
+  {
+    "product_id": "P0039",
+    "name": "Serum Azelaic Acid 20%",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da mụn",
+      "rosacea"
+    ],
+    "ingredients": [
+      "Azelaic Acid"
+    ],
+    "effects": [
+      "Giảm mụn",
+      "Giảm đỏ"
+    ],
+    "price": 462083,
+    "stock_quantity": 68
+  },
+  {
+    "product_id": "P0040",
+    "name": "Nước cân bằng Saffron",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Saffron",
+      "HA"
+    ],
+    "effects": [
+      "Cấp ẩm",
+      "Làm sáng"
+    ],
+    "price": 495543,
+    "stock_quantity": 17
+  },
+  {
+    "product_id": "P0041",
+    "name": "Tinh chất BHA 2% nội sinh",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "BHA"
+    ],
+    "effects": [
+      "Giảm mụn",
+      "Thông thoáng lỗ chân lông"
+    ],
+    "price": 410272,
+    "stock_quantity": 32
+  },
+  {
+    "product_id": "P0042",
+    "name": "Kem dưỡng NMF",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô"
+    ],
+    "ingredients": [
+      "Ceramide",
+      "HA"
+    ],
+    "effects": [
+      "Khóa ẩm"
+    ],
+    "price": 257286,
+    "stock_quantity": 53
+  },
+  {
+    "product_id": "P0043",
+    "name": "Serum Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da dầu",
+      "da mụn"
+    ],
+    "ingredients": [
+      "Niacinamide",
+      "Zinc"
+    ],
+    "effects": [
+      "Giảm dầu",
+      "Se lỗ chân lông"
+    ],
+    "price": 478036,
+    "stock_quantity": 65
+  },
+  {
+    "product_id": "P0044",
+    "name": "Kem dưỡng ẩm cho da khô",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô"
+    ],
+    "ingredients": [
+      "Ceramide",
+      "Shea butter"
+    ],
+    "effects": [
+      "Dưỡng ẩm sâu"
+    ],
+    "price": 159085,
+    "stock_quantity": 44
+  },
+  {
+    "product_id": "P0045",
+    "name": "Serum Retinol 0.5%",
+    "brand": "The Ordinary",
+    "category": "Skincare",
+    "skin-type": [
+      "da lão hóa"
+    ],
+    "ingredients": [
+      "Retinol"
+    ],
+    "effects": [
+      "Chống lão hóa"
+    ],
+    "price": 486428,
+    "stock_quantity": 82
+  },
+  {
+    "product_id": "P0046",
+    "name": "Thạch hoa hồng dưỡng ẩm",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "da khô",
+      "da nhạy cảm"
+    ],
+    "ingredients": [
+      "HA",
+      "Panthenol"
+    ],
+    "effects": [
+      "Cấp nước",
+      "Làm dịu"
+    ],
+    "price": 258886,
+    "stock_quantity": 34
+  },
+  {
+    "product_id": "P0047",
+    "name": "Bơ dưỡng thể ca cao",
+    "brand": "Cocoon",
+    "category": "Bodycare",
+    "skin-type": [
+      "da khô"
+    ],
+    "ingredients": [
+      "Bơ cacao",
+      "Shea butter"
+    ],
+    "effects": [
+      "Dưỡng ẩm sâu"
+    ],
+    "price": 537727,
+    "stock_quantity": 84
+  },
+  {
+    "product_id": "P0048",
+    "name": "Nước cân bằng hoa hồng",
+    "brand": "Cocoon",
+    "category": "Skincare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Hoa hồng",
+      "HA"
+    ],
+    "effects": [
+      "Cân bằng pH",
+      "Cấp ẩm"
+    ],
+    "price": 591150,
+    "stock_quantity": 74
+  },
+  {
+    "product_id": "P0049",
+    "name": "Serum B5 nồng độ cao",
+    "brand": "Dr.Ceutics",
+    "category": "Skincare",
+    "skin-type": [
+      "da nhạy cảm",
+      "da yếu"
+    ],
+    "ingredients": [
+      "Panthenol"
+    ],
+    "effects": [
+      "Phục hồi"
+    ],
+    "price": 581601,
+    "stock_quantity": 17
+  },
+  {
+    "product_id": "P0050",
+    "name": "Dầu tắm hạt cà phê",
+    "brand": "Cocoon",
+    "category": "Bodycare",
+    "skin-type": [
+      "mọi loại da"
+    ],
+    "ingredients": [
+      "Dầu cà phê"
+    ],
+    "effects": [
+      "Làm sạch dịu nhẹ"
+    ],
+    "price": 161213,
+    "stock_quantity": 22
+  }
+]

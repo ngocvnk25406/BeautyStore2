@@ -1,0 +1,42 @@
+[
+  {
+    "staff_id": "S01",
+    "name": "Vũ Như Ngọc",
+    "role": "Quản lý",
+    "phone": "",
+    "salary": 0,
+    "status": "Đang làm"
+  },
+  {
+    "staff_id": "S02",
+    "name": "Võ Đoàn Tiểu Phương",
+    "role": "Tư vấn",
+    "phone": "",
+    "salary": 0,
+    "status": "Đang làm"
+  },
+  {
+    "staff_id": "S03",
+    "name": "Võ Phương Ngọc",
+    "role": "Sales",
+    "phone": "",
+    "salary": 0,
+    "status": "Đang làm"
+  },
+  {
+    "staff_id": "S04",
+    "name": "Trần Thị Minh Huệ",
+    "role": "Sales",
+    "phone": "",
+    "salary": 0,
+    "status": "Đang làm"
+  },
+  {
+    "staff_id": "S05",
+    "name": "Nguyễn Ngọc Tường Vy",
+    "role": "Cashier",
+    "phone": "",
+    "salary": 0,
+    "status": "Đang làm"
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "sale_id": "S00001",
+    "product_id": "P0049",
+    "sale_date": "2024-03-23",
+    "shift": "morning",
+    "quantity": 4,
+    "revenue": 2326404
+  },
+  {
+    "sale_id": "S00002",
+    "product_id": "P0035",
+    "sale_date": "2024-03-23",
+    "shift": "morning",
+    "quantity": 2,
+    "revenue": 448888
+  },
+  {
+    "sale_id": "S00003",
+    "product_id": "P0041",
+    "sale_date": "2024-03-23",
+    "shift": "morning",
+    "quantity": 1,
+    "revenue": 410272
+  },
+  {
+    "sale_id": "S00004",
+    "product_id": "P0007",
+    "sale_date": "2024-03-23",
+    "shift": "afternoon",
+    "quantity": 3,
+    "revenue": 454998
+  },
+  {
+    "sale_id": "S00005",
+    "product_id": "P0048",
+    "sale_date": "2024-03-23",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 2955750
+  },
+  {
+    "sale_id": "S00006",
+    "product_id": "P0033",
+    "sale_date": "2024-03-23",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1514163
+  },
+  {
+    "sale_id": "S00007",
+    "product_id": "P0043",
+    "sale_date": "2024-03-23",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 2390180
+  },
+  {
+    "sale_id": "S00008",
+    "product_id": "P0006",
+    "sale_date": "2024-06-12",
+    "shift": "morning",
+    "quantity": 2,
+    "revenue": 829216
+  },
+  {
+    "sale_id": "S00009",
+    "product_id": "P0048",
+    "sale_date": "2024-06-12",
+    "shift": "morning",
+    "quantity": 3,
+    "revenue": 1773450
+  },
+  {
+    "sale_id": "S00010",
+    "product_id": "P0027",
+    "sale_date": "2024-06-12",
+    "shift": "morning",
+    "quantity": 3,
+    "revenue": 1493478
+  },
+  {
+    "sale_id": "S00011",
+    "product_id": "P0035",
+    "sale_date": "2024-06-12",
+    "shift": "morning",
+    "quantity": 3,
+    "revenue": 673332
+  },
+  {
+    "sale_id": "S00012",
+    "product_id": "P0038",
+    "sale_date": "2024-06-12",
+    "shift": "morning",
+    "quantity": 3,
+    "revenue": 616737
+  },
+  {
+    "sale_id": "S00013",
+    "product_id": "P0009",
+    "sale_date": "2024-06-12",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 1712695
+  },
+  {
+    "sale_id": "S00014",
+    "product_id": "P0022",
+    "sale_date": "2024-06-12",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 1592016
+  },
+  {
+    "sale_id": "S00015",
+    "product_id": "P0038",
+    "sale_date": "2024-06-12",
+    "shift": "afternoon",
+    "quantity": 2,
+    "revenue": 411158
+  },
+  {
+    "sale_id": "S00016",
+    "product_id": "P0021",
+    "sale_date": "2024-06-12",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1050252
+  },
+  {
+    "sale_id": "S00017",
+    "product_id": "P0009",
+    "sale_date": "2024-06-12",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 342539
+  },
+  {
+    "sale_id": "S00018",
+    "product_id": "P0040",
+    "sale_date": "2024-06-12",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 991086
+  },
+  {
+    "sale_id": "S00019",
+    "product_id": "P0049",
+    "sale_date": "2024-06-12",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 581601
+  },
+  {
+    "sale_id": "S00020",
+    "product_id": "P0012",
+    "sale_date": "2024-06-12",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1155462
+  },
+  {
+    "sale_id": "S00021",
+    "product_id": "P0033",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 2018884
+  },
+  {
+    "sale_id": "S00022",
+    "product_id": "P0029",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 1875665
+  },
+  {
+    "sale_id": "S00023",
+    "product_id": "P0012",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 1540616
+  },
+  {
+    "sale_id": "S00024",
+    "product_id": "P0023",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 2061584
+  },
+  {
+    "sale_id": "S00025",
+    "product_id": "P0005",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 1,
+    "revenue": 363668
+  },
+  {
+    "sale_id": "S00026",
+    "product_id": "P0043",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 2390180
+  },
+  {
+    "sale_id": "S00027",
+    "product_id": "P0019",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 1002024
+  },
+  {
+    "sale_id": "S00028",
+    "product_id": "P0028",
+    "sale_date": "2024-09-13",
+    "shift": "afternoon",
+    "quantity": 2,
+    "revenue": 447954
+  },
+  {
+    "sale_id": "S00029",
+    "product_id": "P0009",
+    "sale_date": "2024-09-13",
+    "shift": "evening",
+    "quantity": 4,
+    "revenue": 1370156
+  },
+  {
+    "sale_id": "S00030",
+    "product_id": "P0031",
+    "sale_date": "2024-10-15",
+    "shift": "morning",
+    "quantity": 4,
+    "revenue": 1853960
+  },
+  {
+    "sale_id": "S00031",
+    "product_id": "P0011",
+    "sale_date": "2024-10-15",
+    "shift": "morning",
+    "quantity": 2,
+    "revenue": 1014228
+  },
+  {
+    "sale_id": "S00032",
+    "product_id": "P0031",
+    "sale_date": "2024-10-15",
+    "shift": "morning",
+    "quantity": 5,
+    "revenue": 2317450
+  },
+  {
+    "sale_id": "S00033",
+    "product_id": "P0020",
+    "sale_date": "2024-10-15",
+    "shift": "afternoon",
+    "quantity": 2,
+    "revenue": 958182
+  },
+  {
+    "sale_id": "S00034",
+    "product_id": "P0003",
+    "sale_date": "2024-10-15",
+    "shift": "afternoon",
+    "quantity": 2,
+    "revenue": 622750
+  },
+  {
+    "sale_id": "S00035",
+    "product_id": "P0013",
+    "sale_date": "2024-10-15",
+    "shift": "afternoon",
+    "quantity": 4,
+    "revenue": 1392356
+  },
+  {
+    "sale_id": "S00036",
+    "product_id": "P0044",
+    "sale_date": "2024-10-15",
+    "shift": "afternoon",
+    "quantity": 1,
+    "revenue": 159085
+  },
+  {
+    "sale_id": "S00037",
+    "product_id": "P0011",
+    "sale_date": "2024-10-15",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 507114
+  },
+  {
+    "sale_id": "S00038",
+    "product_id": "P0035",
+    "sale_date": "2024-10-15",
+    "shift": "evening",
+    "quantity": 4,
+    "revenue": 897776
+  },
+  {
+    "sale_id": "S00039",
+    "product_id": "P0010",
+    "sale_date": "2024-10-15",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 522582
+  },
+  {
+    "sale_id": "S00040",
+    "product_id": "P0002",
+    "sale_date": "2024-10-15",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 577959
+  },
+  {
+    "sale_id": "S00041",
+    "product_id": "P0031",
+    "sale_date": "2024-10-15",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 926980
+  },
+  {
+    "sale_id": "S00042",
+    "product_id": "P0023",
+    "sale_date": "2025-03-26",
+    "shift": "afternoon",
+    "quantity": 3,
+    "revenue": 1546188
+  },
+  {
+    "sale_id": "S00043",
+    "product_id": "P0044",
+    "sale_date": "2025-03-26",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 795425
+  },
+  {
+    "sale_id": "S00044",
+    "product_id": "P0014",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 747676
+  },
+  {
+    "sale_id": "S00045",
+    "product_id": "P0003",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 311375
+  },
+  {
+    "sale_id": "S00046",
+    "product_id": "P0006",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 829216
+  },
+  {
+    "sale_id": "S00047",
+    "product_id": "P0019",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 250506
+  },
+  {
+    "sale_id": "S00048",
+    "product_id": "P0039",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1386249
+  },
+  {
+    "sale_id": "S00049",
+    "product_id": "P0045",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 4,
+    "revenue": 1945712
+  },
+  {
+    "sale_id": "S00050",
+    "product_id": "P0012",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1155462
+  },
+  {
+    "sale_id": "S00051",
+    "product_id": "P0045",
+    "sale_date": "2025-03-26",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1459284
+  },
+  {
+    "sale_id": "S00052",
+    "product_id": "P0020",
+    "sale_date": "2025-04-20",
+    "shift": "morning",
+    "quantity": 3,
+    "revenue": 1437273
+  },
+  {
+    "sale_id": "S00053",
+    "product_id": "P0016",
+    "sale_date": "2025-04-20",
+    "shift": "morning",
+    "quantity": 1,
+    "revenue": 596656
+  },
+  {
+    "sale_id": "S00054",
+    "product_id": "P0046",
+    "sale_date": "2025-04-20",
+    "shift": "morning",
+    "quantity": 2,
+    "revenue": 517772
+  },
+  {
+    "sale_id": "S00055",
+    "product_id": "P0001",
+    "sale_date": "2025-04-20",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 915315
+  },
+  {
+    "sale_id": "S00056",
+    "product_id": "P0014",
+    "sale_date": "2025-04-20",
+    "shift": "afternoon",
+    "quantity": 5,
+    "revenue": 1869190
+  },
+  {
+    "sale_id": "S00057",
+    "product_id": "P0010",
+    "sale_date": "2025-04-20",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 1045164
+  },
+  {
+    "sale_id": "S00058",
+    "product_id": "P0032",
+    "sale_date": "2025-04-20",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 1082855
+  },
+  {
+    "sale_id": "S00059",
+    "product_id": "P0029",
+    "sale_date": "2025-04-20",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 1875665
+  },
+  {
+    "sale_id": "S00060",
+    "product_id": "P0031",
+    "sale_date": "2025-04-20",
+    "shift": "evening",
+    "quantity": 3,
+    "revenue": 1390470
+  },
+  {
+    "sale_id": "S00061",
+    "product_id": "P0034",
+    "sale_date": "2025-04-20",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 1370995
+  },
+  {
+    "sale_id": "S00062",
+    "product_id": "P0028",
+    "sale_date": "2025-12-12",
+    "shift": "morning",
+    "quantity": 1,
+    "revenue": 223977
+  },
+  {
+    "sale_id": "S00063",
+    "product_id": "P0029",
+    "sale_date": "2025-12-12",
+    "shift": "morning",
+    "quantity": 1,
+    "revenue": 375133
+  },
+  {
+    "sale_id": "S00064",
+    "product_id": "P0022",
+    "sale_date": "2025-12-12",
+    "shift": "morning",
+    "quantity": 4,
+    "revenue": 1592016
+  },
+  {
+    "sale_id": "S00065",
+    "product_id": "P0046",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 258886
+  },
+  {
+    "sale_id": "S00066",
+    "product_id": "P0029",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 1875665
+  },
+  {
+    "sale_id": "S00067",
+    "product_id": "P0042",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 514572
+  },
+  {
+    "sale_id": "S00068",
+    "product_id": "P0022",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 4,
+    "revenue": 1592016
+  },
+  {
+    "sale_id": "S00069",
+    "product_id": "P0003",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 2,
+    "revenue": 622750
+  },
+  {
+    "sale_id": "S00070",
+    "product_id": "P0017",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 5,
+    "revenue": 1967225
+  },
+  {
+    "sale_id": "S00071",
+    "product_id": "P0048",
+    "sale_date": "2025-12-12",
+    "shift": "evening",
+    "quantity": 1,
+    "revenue": 591150
+  }
+]

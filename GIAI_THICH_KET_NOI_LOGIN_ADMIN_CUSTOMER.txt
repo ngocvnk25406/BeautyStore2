@@ -1,0 +1,131 @@
+================================================================================
+GIẢI THÍCH: KẾT NỐI MÀN HÌNH LOGIN VỚI CUSTOMER, ADMIN VÀ MAIN
+================================================================================
+(Dựa trên cấu trúc thư mục BeautyStore2 và các file trong ui/)
+
+--------------------------------------------------------------------------------
+1. ĐIỂM VÀO: main.py
+--------------------------------------------------------------------------------
+
+Chương trình chỉ khởi động từ main.py và chỉ mở màn hình đăng nhập:
+
+  - Tạo QApplication (ứng dụng PyQt6).
+  - Tạo duy nhất một cửa sổ: LoginWindow().
+  - window.show() để hiện màn hình đăng nhập.
+  - app.exec() chạy vòng lặp sự kiện; toàn bộ app chỉ biết Login lúc khởi động.
+
+main.py KHÔNG import AdminWindow hay CustomerWindow, chỉ import LoginWindow.
+
+Đoạn code chính trong main.py:
+  - from login_window import LoginWindow
+  - window = LoginWindow()
+  - window.show()
+  - sys.exit(app.exec())
+
+
+--------------------------------------------------------------------------------
+2. LOGIN DÙNG UI TỪ ui/login_ui.py
+--------------------------------------------------------------------------------
+
+LoginWindow (trong login_window.py) gắn giao diện từ ui/login_ui.py:
+
+  - Ui_LoginWindow là class do ui/login_ui.py định nghĩa (hoặc generate từ login.ui).
+  - self.ui.setupUi(self) dựng toàn bộ widget (ô username, password, nút Đăng nhập, Đăng ký, ...).
+  - _connect_signals() gắn nút "Đăng nhập" với hàm xử lý.
+
+
+--------------------------------------------------------------------------------
+3. CƠ CHẾ CHUYỂN SANG ADMIN HOẶC CUSTOMER
+--------------------------------------------------------------------------------
+
+Khi user bấm Đăng nhập, handle_login() được gọi:
+
+  Bước 1: Lấy username, password từ UI.
+  Bước 2: Đọc danh sách tài khoản (ví dụ từ data/accounts.json), tìm account trùng username + password.
+  Bước 3: Lấy role từ account ("admin" hoặc mặc định "customer").
+  Bước 4: Gọi _open_admin(account) hoặc _open_customer(account).
+
+Hai hàm _open_admin và _open_customer:
+  - Import trong lúc chạy: from admin_window import AdminWindow / from customer_window import CustomerWindow
+  - Tạo cửa sổ: AdminWindow(account) hoặc CustomerWindow(account)
+  - Hiển thị: .show()
+  - Đóng Login: self.close()
+
+Kết quả:
+  - Chỉ khi đăng nhập thành công mới load và mở Admin hoặc Customer.
+  - Cửa sổ Login đóng lại, chỉ còn một cửa sổ (Admin hoặc Customer) đang mở.
+
+
+--------------------------------------------------------------------------------
+4. ADMIN VÀ CUSTOMER NHẬN account VÀ DÙNG UI TRONG ui/
+--------------------------------------------------------------------------------
+
+Cả hai cửa sổ đều nhận một dict account (username, password, role, customer_id, full_name, ...) để biết "ai đang đăng nhập":
+
+  Admin (admin_window.py):
+    - __init__(self, account: dict)
+    - self.account = account
+    - Giao diện: Ui_AdminWindow từ ui/admin_ui.py (tương ứng admin.ui)
+
+  Customer (customer_window.py):
+    - __init__(self, account: dict)
+    - self.account = account
+    - self.customer_id = account.get("customer_id", "") để load đúng khách hàng
+    - Giao diện: Ui_CustomerWindow từ ui/customer_ui.py (tương ứng customer.ui)
+
+
+--------------------------------------------------------------------------------
+5. SƠ ĐỒ LUỒNG TỔNG THỂ
+--------------------------------------------------------------------------------
+
+  main.py
+     |
+     +-- QApplication()
+     +-- window = LoginWindow()   <-- dùng ui/login_ui.py (Ui_LoginWindow)
+     +-- window.show()
+     +-- app.exec()
+              |
+              v
+        [User nhập username/password và bấm Đăng nhập]
+              |
+              v
+        login_window.handle_login()
+              |
+              +-- load accounts --> tìm account
+              +-- role = account["role"]
+              |
+              +-- role == "admin"
+              |        |
+              |        +-- from admin_window import AdminWindow
+              |        +-- AdminWindow(account).show()   <-- dùng ui/admin_ui.py
+              |        +-- self.close()   (đóng Login)
+              |
+              +-- role != "admin" (customer)
+                       |
+                       +-- from customer_window import CustomerWindow
+                       +-- CustomerWindow(account).show()   <-- dùng ui/customer_ui.py
+                       +-- self.close()   (đóng Login)
+
+
+--------------------------------------------------------------------------------
+6. TÓM TẮT
+--------------------------------------------------------------------------------
+
+  Thành phần          | Vai trò
+  --------------------|---------------------------------------------------------
+  main.py             | Chỉ tạo app và LoginWindow, rồi chạy event loop.
+  login_window.py     | Logic đăng nhập; dùng ui/login_ui.py cho giao diện;
+                      | khi đăng nhập thành công gọi _open_admin(account) hoặc
+                      | _open_customer(account).
+  Kết nối Login -->   | Import trong hàm (from admin_window import AdminWindow /
+  Admin, Customer     | from customer_window import CustomerWindow), tạo cửa sổ
+                      | với account, .show() rồi .close() Login.
+  admin_window.py     | Nhận account, dùng ui/admin_ui.py; toàn bộ chức năng
+                      | admin dựa trên self.account.
+  customer_window.py  | Nhận account, lấy customer_id từ account, dùng
+                      | ui/customer_ui.py; mọi tính năng khách hàng dựa trên
+                      | self.account và self.customer_id.
+
+================================================================================
+File được tạo từ giải thích kết nối Login - Admin - Customer - main.
+================================================================================

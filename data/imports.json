@@ -1,0 +1,352 @@
+[
+  {
+    "import_id": "I0001",
+    "product_id": "P0001",
+    "quantity": 126,
+    "import_price": 109837,
+    "date": "27/02/2024 14:56"
+  },
+  {
+    "import_id": "I0002",
+    "product_id": "P0002",
+    "quantity": 110,
+    "import_price": 115591,
+    "date": "27/02/2024 15:49"
+  },
+  {
+    "import_id": "I0003",
+    "product_id": "P0003",
+    "quantity": 136,
+    "import_price": 186825,
+    "date": "27/02/2024 18:06"
+  },
+  {
+    "import_id": "I0004",
+    "product_id": "P0004",
+    "quantity": 78,
+    "import_price": 234894,
+    "date": "27/02/2024 19:43"
+  },
+  {
+    "import_id": "I0005",
+    "product_id": "P0005",
+    "quantity": 96,
+    "import_price": 218200,
+    "date": "27/02/2024 21:59"
+  },
+  {
+    "import_id": "I0006",
+    "product_id": "P0006",
+    "quantity": 122,
+    "import_price": 248764,
+    "date": "13/04/2024 13:06"
+  },
+  {
+    "import_id": "I0007",
+    "product_id": "P0007",
+    "quantity": 131,
+    "import_price": 90999,
+    "date": "13/04/2024 13:55"
+  },
+  {
+    "import_id": "I0008",
+    "product_id": "P0008",
+    "quantity": 112,
+    "import_price": 273202,
+    "date": "13/04/2024 21:53"
+  },
+  {
+    "import_id": "I0009",
+    "product_id": "P0009",
+    "quantity": 150,
+    "import_price": 205523,
+    "date": "09/05/2024 09:14"
+  },
+  {
+    "import_id": "I0010",
+    "product_id": "P0010",
+    "quantity": 140,
+    "import_price": 313549,
+    "date": "09/05/2024 09:16"
+  },
+  {
+    "import_id": "I0011",
+    "product_id": "P0011",
+    "quantity": 105,
+    "import_price": 304268,
+    "date": "09/05/2024 09:36"
+  },
+  {
+    "import_id": "I0012",
+    "product_id": "P0012",
+    "quantity": 109,
+    "import_price": 231092,
+    "date": "09/05/2024 10:57"
+  },
+  {
+    "import_id": "I0013",
+    "product_id": "P0013",
+    "quantity": 149,
+    "import_price": 208853,
+    "date": "10/05/2024 14:34"
+  },
+  {
+    "import_id": "I0014",
+    "product_id": "P0014",
+    "quantity": 72,
+    "import_price": 224302,
+    "date": "11/05/2024 13:42"
+  },
+  {
+    "import_id": "I0015",
+    "product_id": "P0015",
+    "quantity": 57,
+    "import_price": 232657,
+    "date": "11/05/2024 17:40"
+  },
+  {
+    "import_id": "I0016",
+    "product_id": "P0016",
+    "quantity": 138,
+    "import_price": 357993,
+    "date": "11/05/2024 18:56"
+  },
+  {
+    "import_id": "I0017",
+    "product_id": "P0017",
+    "quantity": 96,
+    "import_price": 236067,
+    "date": "21/07/2024 11:11"
+  },
+  {
+    "import_id": "I0018",
+    "product_id": "P0018",
+    "quantity": 55,
+    "import_price": 204925,
+    "date": "21/07/2024 14:59"
+  },
+  {
+    "import_id": "I0019",
+    "product_id": "P0019",
+    "quantity": 77,
+    "import_price": 150303,
+    "date": "21/07/2024 20:15"
+  },
+  {
+    "import_id": "I0020",
+    "product_id": "P0020",
+    "quantity": 68,
+    "import_price": 287454,
+    "date": "26/08/2024 09:03"
+  },
+  {
+    "import_id": "I0021",
+    "product_id": "P0021",
+    "quantity": 66,
+    "import_price": 210050,
+    "date": "26/08/2024 10:35"
+  },
+  {
+    "import_id": "I0022",
+    "product_id": "P0022",
+    "quantity": 63,
+    "import_price": 238802,
+    "date": "26/08/2024 10:44"
+  },
+  {
+    "import_id": "I0023",
+    "product_id": "P0023",
+    "quantity": 101,
+    "import_price": 309237,
+    "date": "26/08/2024 19:26"
+  },
+  {
+    "import_id": "I0024",
+    "product_id": "P0024",
+    "quantity": 58,
+    "import_price": 153372,
+    "date": "19/09/2024 09:42"
+  },
+  {
+    "import_id": "I0025",
+    "product_id": "P0025",
+    "quantity": 139,
+    "import_price": 140636,
+    "date": "19/09/2024 11:37"
+  },
+  {
+    "import_id": "I0026",
+    "product_id": "P0026",
+    "quantity": 147,
+    "import_price": 141448,
+    "date": "19/09/2024 18:21"
+  },
+  {
+    "import_id": "I0027",
+    "product_id": "P0027",
+    "quantity": 60,
+    "import_price": 298695,
+    "date": "19/09/2024 21:35"
+  },
+  {
+    "import_id": "I0028",
+    "product_id": "P0028",
+    "quantity": 135,
+    "import_price": 134386,
+    "date": "10/10/2024 15:04"
+  },
+  {
+    "import_id": "I0029",
+    "product_id": "P0029",
+    "quantity": 62,
+    "import_price": 225079,
+    "date": "10/10/2024 17:50"
+  },
+  {
+    "import_id": "I0030",
+    "product_id": "P0030",
+    "quantity": 145,
+    "import_price": 148670,
+    "date": "10/10/2024 18:30"
+  },
+  {
+    "import_id": "I0031",
+    "product_id": "P0031",
+    "quantity": 148,
+    "import_price": 278094,
+    "date": "12/10/2024 08:50"
+  },
+  {
+    "import_id": "I0032",
+    "product_id": "P0032",
+    "quantity": 129,
+    "import_price": 129942,
+    "date": "12/10/2024 11:52"
+  },
+  {
+    "import_id": "I0033",
+    "product_id": "P0033",
+    "quantity": 64,
+    "import_price": 302832,
+    "date": "12/10/2024 14:21"
+  },
+  {
+    "import_id": "I0034",
+    "product_id": "P0034",
+    "quantity": 75,
+    "import_price": 164519,
+    "date": "14/10/2024 09:59"
+  },
+  {
+    "import_id": "I0035",
+    "product_id": "P0035",
+    "quantity": 91,
+    "import_price": 134666,
+    "date": "14/10/2024 10:45"
+  },
+  {
+    "import_id": "I0036",
+    "product_id": "P0036",
+    "quantity": 87,
+    "import_price": 264112,
+    "date": "14/10/2024 13:39"
+  },
+  {
+    "import_id": "I0037",
+    "product_id": "P0037",
+    "quantity": 138,
+    "import_price": 238311,
+    "date": "14/10/2024 14:08"
+  },
+  {
+    "import_id": "I0038",
+    "product_id": "P0038",
+    "quantity": 86,
+    "import_price": 123347,
+    "date": "25/11/2024 11:30"
+  },
+  {
+    "import_id": "I0039",
+    "product_id": "P0039",
+    "quantity": 82,
+    "import_price": 277249,
+    "date": "25/11/2024 16:17"
+  },
+  {
+    "import_id": "I0040",
+    "product_id": "P0040",
+    "quantity": 145,
+    "import_price": 297325,
+    "date": "28/12/2024 08:41"
+  },
+  {
+    "import_id": "I0041",
+    "product_id": "P0041",
+    "quantity": 127,
+    "import_price": 246163,
+    "date": "28/12/2024 12:24"
+  },
+  {
+    "import_id": "I0042",
+    "product_id": "P0042",
+    "quantity": 99,
+    "import_price": 154371,
+    "date": "28/12/2024 13:12"
+  },
+  {
+    "import_id": "I0043",
+    "product_id": "P0043",
+    "quantity": 136,
+    "import_price": 286821,
+    "date": "28/12/2024 18:56"
+  },
+  {
+    "import_id": "I0044",
+    "product_id": "P0044",
+    "quantity": 149,
+    "import_price": 95451,
+    "date": "28/12/2024 19:21"
+  },
+  {
+    "import_id": "I0045",
+    "product_id": "P0045",
+    "quantity": 147,
+    "import_price": 291856,
+    "date": "09/01/2025 12:38"
+  },
+  {
+    "import_id": "I0046",
+    "product_id": "P0046",
+    "quantity": 114,
+    "import_price": 155331,
+    "date": "18/01/2025 15:36"
+  },
+  {
+    "import_id": "I0047",
+    "product_id": "P0047",
+    "quantity": 82,
+    "import_price": 322636,
+    "date": "02/02/2025 08:41"
+  },
+  {
+    "import_id": "I0048",
+    "product_id": "P0048",
+    "quantity": 111,
+    "import_price": 354690,
+    "date": "02/02/2025 10:30"
+  },
+  {
+    "import_id": "I0049",
+    "product_id": "P0049",
+    "quantity": 90,
+    "import_price": 348960,
+    "date": "02/02/2025 20:14"
+  },
+  {
+    "import_id": "I0050",
+    "product_id": "P0050",
+    "quantity": 130,
+    "import_price": 96727,
+    "date": "02/02/2025 21:24"
+  }
+]

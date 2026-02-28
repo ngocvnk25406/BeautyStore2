@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Nhóm 5 - Beauty Store - Đăng nhập</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="mainLayout">
+    <item>
+     <layout class="QVBoxLayout" name="leftLayout">
+      <item>
+       <widget class="QLabel" name="lblLogo">
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblBrand">
+        <property name="text">
+         <string>GLOWUP
+BEAUTY STORE</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblTagline">
+        <property name="text">
+         <string>✨ Tư vấn skincare thông minh
+💄 Mua sắm tiện lợi
+🤖 Chatbot AI hỗ trợ 24/7</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="rightLayout">
+      <item>
+       <widget class="QFrame" name="cardFrame">
+        <layout class="QVBoxLayout" name="cardLayout">
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <widget class="QWidget" name="pageLogin">
+            <layout class="QVBoxLayout">
+             <item>
+              <widget class="QLabel" name="lblTitle">
+               <property name="text">
+                <string>Đăng nhập</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lblSubtitle">
+               <property name="text">
+                <string>Chào mừng trở lại!</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtUsername">
+               <property name="placeholderText">
+                <string>Tên đăng nhập...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtPassword">
+               <property name="echoMode">
+                <enum>QLineEdit::EchoMode::Password</enum>
+               </property>
+               <property name="placeholderText">
+                <string>Mật khẩu...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lblLoginError">
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnLogin">
+               <property name="text">
+                <string>🔐 Đăng nhập</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnRegisterSwitch">
+               <property name="text">
+                <string>Đăng ký tài khoản khách hàng</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="pageRegister">
+            <layout class="QVBoxLayout">
+             <item>
+              <widget class="QLabel" name="lblRegTitle">
+               <property name="text">
+                <string>Đăng ký tài khoản</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtRegName">
+               <property name="placeholderText">
+                <string>Họ và tên...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtRegPhone">
+               <property name="placeholderText">
+                <string>Số điện thoại...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtRegUsername">
+               <property name="placeholderText">
+                <string>Tên đăng nhập...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="txtRegPassword">
+               <property name="echoMode">
+                <enum>QLineEdit::EchoMode::Password</enum>
+               </property>
+               <property name="placeholderText">
+                <string>Mật khẩu...</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lblRegError">
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnRegister">
+               <property name="text">
+                <string>✅ Tạo tài khoản</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnBackToLogin">
+               <property name="text">
+                <string>← Quay lại đăng nhập</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

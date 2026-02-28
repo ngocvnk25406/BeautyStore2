@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerWindow</class>
+ <widget class="QMainWindow" name="CustomerWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1400</width><height>900</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>GLOWUP Beauty Store - Cổng Khách hàng</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <item>
+     <widget class="QLabel" name="lblTitle">
+      <property name="alignment"><set>Qt::AlignCenter</set></property>
+      <property name="text"><string>🧴 GLOWUP BEAUTY STORE - Chào mừng bạn! 💖</string></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <!-- Tab 1: Sản phẩm -->
+      <widget class="QWidget" name="tabProducts">
+       <attribute name="title"><string>🛍️ Sản phẩm</string></attribute>
+       <layout class="QVBoxLayout">
+        <item><widget class="QTableWidget" name="tblProductList"><property name="columnCount"><number>6</number></property></widget></item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QPushButton" name="btnViewDetail"><property name="text"><string>🔍 Xem chi tiết</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnAddToCartFromList"><property name="text"><string>🛒 Thêm vào giỏ</string></property></widget></item>
+          <item><spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+          <item><widget class="QPushButton" name="btnRefreshProducts"><property name="text"><string>🔄 Làm mới</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 2: Tìm kiếm -->
+      <widget class="QWidget" name="tabSearch">
+       <attribute name="title"><string>🔍 Tìm kiếm</string></attribute>
+       <layout class="QVBoxLayout">
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QLineEdit" name="txtSearchKeyword"><property name="placeholderText"><string>Nhập tên sản phẩm...</string></property></widget></item>
+          <item><widget class="QComboBox" name="cboSearchCategory"/></item>
+          <item><widget class="QComboBox" name="cboSearchPrice"/></item>
+          <item><widget class="QPushButton" name="btnSearch"><property name="text"><string>🔍 Tìm kiếm</string></property></widget></item>
+         </layout>
+        </item>
+        <item><widget class="QTableWidget" name="tblSearchResult"><property name="columnCount"><number>6</number></property></widget></item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QPushButton" name="btnSearchViewDetail"><property name="text"><string>🔍 Xem chi tiết</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnSearchAddCart"><property name="text"><string>🛒 Thêm vào giỏ</string></property></widget></item>
+          <item><spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+          <item><widget class="QLabel" name="lblSearchCount"><property name="text"><string>Kết quả: 0 sản phẩm</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 3: Chi tiết SP -->
+      <widget class="QWidget" name="tabProductDetail">
+       <attribute name="title"><string>📋 Chi tiết SP</string></attribute>
+       <layout class="QHBoxLayout">
+        <item>
+         <widget class="QGroupBox" name="grpDetail">
+          <property name="title"><string>📦 Thông tin sản phẩm</string></property>
+          <layout class="QVBoxLayout">
+           <item><widget class="QLabel" name="lblProductName"><property name="text"><string>Chọn sản phẩm để xem chi tiết</string></property></widget></item>
+           <item><widget class="QLabel" name="lblDetailBrand"/></item>
+           <item><widget class="QLabel" name="lblDetailPrice"/></item>
+           <item><widget class="QLabel" name="lblDetailStock"/></item>
+           <item><widget class="QLabel" name="lblDetailEffects"/></item>
+           <item><widget class="QLabel" name="lblDetailSkinType"/></item>
+           <item><widget class="QLabel" name="lblDetailIngredients"/></item>
+           <item><spacer><property name="orientation"><enum>Qt::Vertical</enum></property></spacer></item>
+           <item>
+            <layout class="QHBoxLayout">
+             <item><widget class="QSpinBox" name="spinDetailQty"><property name="minimum"><number>1</number></property></widget></item>
+             <item><widget class="QPushButton" name="btnDetailAddCart"><property name="text"><string>🛒 Thêm vào giỏ hàng</string></property></widget></item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="grpRelated">
+          <property name="title"><string>💡 Sản phẩm tương tự</string></property>
+          <layout class="QVBoxLayout">
+           <item><widget class="QTableWidget" name="tblRelated"><property name="columnCount"><number>4</number></property></widget></item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 4: Gợi ý theo da -->
+      <widget class="QWidget" name="tabSkinRecommend">
+       <attribute name="title"><string>💆 Gợi ý theo da</string></attribute>
+       <layout class="QVBoxLayout">
+        <item>
+         <widget class="QGroupBox" name="grpSkin">
+          <property name="title"><string>🌸 Thông tin da của bạn</string></property>
+          <layout class="QFormLayout">
+           <item row="0" column="0"><widget class="QLabel"><property name="text"><string>Loại da:</string></property></widget></item>
+           <item row="0" column="1"><widget class="QComboBox" name="cboMySkinType"/></item>
+           <item row="1" column="0"><widget class="QLabel"><property name="text"><string>Vấn đề da:</string></property></widget></item>
+           <item row="1" column="1"><widget class="QLineEdit" name="txtMySkinConcerns"><property name="placeholderText"><string>VD: mụn, thâm, khô...</string></property></widget></item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QPushButton" name="btnGetMyRecommend"><property name="text"><string>🔮 Gợi ý sản phẩm phù hợp</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnGetMyRoutine"><property name="text"><string>📋 Tạo Routine cho tôi</string></property></widget></item>
+          <item><spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+         </layout>
+        </item>
+        <item><widget class="QTableWidget" name="tblMyRecommend"><property name="columnCount"><number>5</number></property></widget></item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QPushButton" name="btnRecAddCart"><property name="text"><string>🛒 Thêm SP được chọn vào giỏ</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 5: Chatbot -->
+      <widget class="QWidget" name="tabChatbot">
+       <attribute name="title"><string>🤖 Chatbot AI</string></attribute>
+       <layout class="QVBoxLayout">
+        <item><widget class="QTextEdit" name="txtChatHistory"><property name="readOnly"><bool>true</bool></property></widget></item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QLineEdit" name="txtChatInput"><property name="placeholderText"><string>Nhập tin nhắn...</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnSendChat"><property name="text"><string>📤 Gửi</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnClearChat"><property name="text"><string>🗑️ Xóa</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 6: Giỏ hàng -->
+      <widget class="QWidget" name="tabCart">
+       <attribute name="title"><string>🛒 Giỏ hàng</string></attribute>
+       <layout class="QHBoxLayout">
+        <item>
+         <widget class="QGroupBox" name="grpCart">
+          <property name="title"><string>🛒 Giỏ hàng của bạn</string></property>
+          <layout class="QVBoxLayout">
+           <item><widget class="QTableWidget" name="tblCart"><property name="columnCount"><number>5</number></property></widget></item>
+           <item>
+            <layout class="QHBoxLayout">
+             <item><widget class="QPushButton" name="btnCartRemove"><property name="text"><string>➖ Xóa sản phẩm</string></property></widget></item>
+             <item><widget class="QPushButton" name="btnCartClear"><property name="text"><string>🗑️ Xóa tất cả</string></property></widget></item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="grpCheckout">
+          <property name="title"><string>💳 Thanh toán</string></property>
+          <layout class="QVBoxLayout">
+           <item><widget class="QLabel" name="lblCartSubtotal"><property name="text"><string>Tạm tính: 0đ</string></property></widget></item>
+           <item><widget class="QLabel" name="lblCartDiscount"><property name="text"><string>Giảm giá: -0đ</string></property></widget></item>
+           <item><widget class="QLabel" name="lblCartTotal"><property name="text"><string>💰 TỔNG: 0đ</string></property></widget></item>
+           <item><widget class="QLineEdit" name="txtOrderNote"><property name="placeholderText"><string>Ghi chú cho shop...</string></property></widget></item>
+           <item><spacer><property name="orientation"><enum>Qt::Vertical</enum></property></spacer></item>
+           <item><widget class="QPushButton" name="btnPlaceOrder"><property name="text"><string>✅ ĐẶT HÀNG NGAY</string></property></widget></item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <!-- Tab 7: Lịch sử đơn hàng -->
+      <widget class="QWidget" name="tabOrderHistory">
+       <attribute name="title"><string>📜 Lịch sử ĐH</string></attribute>
+       <layout class="QVBoxLayout">
+        <item><widget class="QTableWidget" name="tblOrderHistory"><property name="columnCount"><number>5</number></property></widget></item>
+        <item>
+         <layout class="QHBoxLayout">
+          <item><widget class="QPushButton" name="btnViewHistoryDetail"><property name="text"><string>👁️ Xem chi tiết</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnRefreshHistory"><property name="text"><string>🔄 Làm mới</string></property></widget></item>
+          <item><spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+          <item><widget class="QLabel" name="lblHistoryTotal"><property name="text"><string>Tổng chi tiêu: 0đ</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

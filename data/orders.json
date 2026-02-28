@@ -1,0 +1,706 @@
+[
+  {
+    "order_id": "O00001",
+    "datetime": "23/03/2024 11:23",
+    "customer_id": "C015",
+    "staff_id": "S01",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0049",
+        "quantity": 4,
+        "price": 581601
+      },
+      {
+        "product_id": "P0035",
+        "quantity": 2,
+        "price": 224444
+      },
+      {
+        "product_id": "P0041",
+        "quantity": 1,
+        "price": 410272
+      }
+    ],
+    "total": 3185564
+  },
+  {
+    "order_id": "O00002",
+    "datetime": "23/03/2024 16:48",
+    "customer_id": "C004",
+    "staff_id": "S04",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0007",
+        "quantity": 3,
+        "price": 151666
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 5,
+        "price": 591150
+      }
+    ],
+    "total": 3410748
+  },
+  {
+    "order_id": "O00003",
+    "datetime": "23/03/2024 20:00",
+    "customer_id": "C002",
+    "staff_id": "S03",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0033",
+        "quantity": 3,
+        "price": 504721
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 5,
+        "price": 478036
+      }
+    ],
+    "total": 3904343
+  },
+  {
+    "order_id": "O00004",
+    "datetime": "12/06/2024 10:00",
+    "customer_id": "C001",
+    "staff_id": "S04",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0006",
+        "quantity": 2,
+        "price": 414608
+      }
+    ],
+    "total": 829216
+  },
+  {
+    "order_id": "O00005",
+    "datetime": "12/06/2024 10:17",
+    "customer_id": "C013",
+    "staff_id": "S01",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0048",
+        "quantity": 3,
+        "price": 591150
+      },
+      {
+        "product_id": "P0027",
+        "quantity": 3,
+        "price": 497826
+      },
+      {
+        "product_id": "P0035",
+        "quantity": 3,
+        "price": 224444
+      },
+      {
+        "product_id": "P0038",
+        "quantity": 3,
+        "price": 205579
+      }
+    ],
+    "total": 4556997
+  },
+  {
+    "order_id": "O00006",
+    "datetime": "12/06/2024 12:01",
+    "customer_id": "C008",
+    "staff_id": "S01",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0009",
+        "quantity": 5,
+        "price": 342539
+      },
+      {
+        "product_id": "P0022",
+        "quantity": 4,
+        "price": 398004
+      },
+      {
+        "product_id": "P0038",
+        "quantity": 2,
+        "price": 205579
+      }
+    ],
+    "total": 3715869
+  },
+  {
+    "order_id": "O00007",
+    "datetime": "12/06/2024 17:30",
+    "customer_id": "C003",
+    "staff_id": "S05",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0021",
+        "quantity": 3,
+        "price": 350084
+      },
+      {
+        "product_id": "P0009",
+        "quantity": 1,
+        "price": 342539
+      },
+      {
+        "product_id": "P0040",
+        "quantity": 2,
+        "price": 495543
+      }
+    ],
+    "total": 2383877
+  },
+  {
+    "order_id": "O00008",
+    "datetime": "12/06/2024 20:06",
+    "customer_id": "C004",
+    "staff_id": "S02",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0049",
+        "quantity": 1,
+        "price": 581601
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 3,
+        "price": 385154
+      }
+    ],
+    "total": 1737063
+  },
+  {
+    "order_id": "O00009",
+    "datetime": "13/09/2024 12:12",
+    "customer_id": "C014",
+    "staff_id": "S02",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0033",
+        "quantity": 4,
+        "price": 504721
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 5,
+        "price": 375133
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 4,
+        "price": 385154
+      },
+      {
+        "product_id": "P0023",
+        "quantity": 4,
+        "price": 515396
+      }
+    ],
+    "total": 7496749
+  },
+  {
+    "order_id": "O00010",
+    "datetime": "13/09/2024 14:06",
+    "customer_id": "C004",
+    "staff_id": "S02",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0005",
+        "quantity": 1,
+        "price": 363668
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 5,
+        "price": 478036
+      },
+      {
+        "product_id": "P0019",
+        "quantity": 4,
+        "price": 250506
+      }
+    ],
+    "total": 3755872
+  },
+  {
+    "order_id": "O00011",
+    "datetime": "13/09/2024 15:50",
+    "customer_id": "C015",
+    "staff_id": "S04",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0028",
+        "quantity": 2,
+        "price": 223977
+      }
+    ],
+    "total": 447954
+  },
+  {
+    "order_id": "O00012",
+    "datetime": "13/09/2024 17:46",
+    "customer_id": "C013",
+    "staff_id": "S02",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0009",
+        "quantity": 4,
+        "price": 342539
+      }
+    ],
+    "total": 1370156
+  },
+  {
+    "order_id": "O00013",
+    "datetime": "15/10/2024 10:32",
+    "customer_id": "C006",
+    "staff_id": "S03",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0031",
+        "quantity": 4,
+        "price": 463490
+      }
+    ],
+    "total": 1853960
+  },
+  {
+    "order_id": "O00014",
+    "datetime": "15/10/2024 10:41",
+    "customer_id": "C010",
+    "staff_id": "S01",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0011",
+        "quantity": 2,
+        "price": 507114
+      },
+      {
+        "product_id": "P0031",
+        "quantity": 5,
+        "price": 463490
+      }
+    ],
+    "total": 3331678
+  },
+  {
+    "order_id": "O00015",
+    "datetime": "15/10/2024 12:24",
+    "customer_id": "C010",
+    "staff_id": "S05",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0020",
+        "quantity": 2,
+        "price": 479091
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 2,
+        "price": 311375
+      },
+      {
+        "product_id": "P0013",
+        "quantity": 4,
+        "price": 348089
+      },
+      {
+        "product_id": "P0044",
+        "quantity": 1,
+        "price": 159085
+      }
+    ],
+    "total": 3132373
+  },
+  {
+    "order_id": "O00016",
+    "datetime": "15/10/2024 17:21",
+    "customer_id": "C012",
+    "staff_id": "S03",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0011",
+        "quantity": 1,
+        "price": 507114
+      }
+    ],
+    "total": 507114
+  },
+  {
+    "order_id": "O00017",
+    "datetime": "15/10/2024 19:18",
+    "customer_id": "C002",
+    "staff_id": "S05",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0035",
+        "quantity": 4,
+        "price": 224444
+      }
+    ],
+    "total": 897776
+  },
+  {
+    "order_id": "O00018",
+    "datetime": "15/10/2024 19:31",
+    "customer_id": "C013",
+    "staff_id": "S01",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0010",
+        "quantity": 1,
+        "price": 522582
+      }
+    ],
+    "total": 522582
+  },
+  {
+    "order_id": "O00019",
+    "datetime": "15/10/2024 20:19",
+    "customer_id": "C010",
+    "staff_id": "S03",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0002",
+        "quantity": 3,
+        "price": 192653
+      },
+      {
+        "product_id": "P0031",
+        "quantity": 2,
+        "price": 463490
+      }
+    ],
+    "total": 1504939
+  },
+  {
+    "order_id": "O00020",
+    "datetime": "26/03/2025 13:09",
+    "customer_id": "C008",
+    "staff_id": "S05",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0023",
+        "quantity": 3,
+        "price": 515396
+      },
+      {
+        "product_id": "P0044",
+        "quantity": 5,
+        "price": 159085
+      }
+    ],
+    "total": 2341613
+  },
+  {
+    "order_id": "O00021",
+    "datetime": "26/03/2025 20:18",
+    "customer_id": "C009",
+    "staff_id": "S04",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0014",
+        "quantity": 2,
+        "price": 373838
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 1,
+        "price": 311375
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 2,
+        "price": 414608
+      },
+      {
+        "product_id": "P0019",
+        "quantity": 1,
+        "price": 250506
+      }
+    ],
+    "total": 2138773
+  },
+  {
+    "order_id": "O00022",
+    "datetime": "26/03/2025 20:19",
+    "customer_id": "C015",
+    "staff_id": "S03",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0039",
+        "quantity": 3,
+        "price": 462083
+      },
+      {
+        "product_id": "P0045",
+        "quantity": 4,
+        "price": 486428
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 3,
+        "price": 385154
+      }
+    ],
+    "total": 4487423
+  },
+  {
+    "order_id": "O00023",
+    "datetime": "26/03/2025 21:24",
+    "customer_id": "C005",
+    "staff_id": "S03",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0045",
+        "quantity": 3,
+        "price": 486428
+      }
+    ],
+    "total": 1459284
+  },
+  {
+    "order_id": "O00024",
+    "datetime": "20/04/2025 11:00",
+    "customer_id": "C011",
+    "staff_id": "S02",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0020",
+        "quantity": 3,
+        "price": 479091
+      },
+      {
+        "product_id": "P0016",
+        "quantity": 1,
+        "price": 596656
+      },
+      {
+        "product_id": "P0046",
+        "quantity": 2,
+        "price": 258886
+      }
+    ],
+    "total": 2551701
+  },
+  {
+    "order_id": "O00025",
+    "datetime": "20/04/2025 13:40",
+    "customer_id": "C007",
+    "staff_id": "S01",
+    "shift_id": "SH2",
+    "items": [
+      {
+        "product_id": "P0001",
+        "quantity": 5,
+        "price": 183063
+      },
+      {
+        "product_id": "P0014",
+        "quantity": 5,
+        "price": 373838
+      }
+    ],
+    "total": 2784505
+  },
+  {
+    "order_id": "O00026",
+    "datetime": "20/04/2025 17:50",
+    "customer_id": "C006",
+    "staff_id": "S05",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0010",
+        "quantity": 2,
+        "price": 522582
+      },
+      {
+        "product_id": "P0032",
+        "quantity": 5,
+        "price": 216571
+      }
+    ],
+    "total": 2128019
+  },
+  {
+    "order_id": "O00027",
+    "datetime": "20/04/2025 17:54",
+    "customer_id": "C007",
+    "staff_id": "S02",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0029",
+        "quantity": 5,
+        "price": 375133
+      },
+      {
+        "product_id": "P0031",
+        "quantity": 3,
+        "price": 463490
+      },
+      {
+        "product_id": "P0034",
+        "quantity": 5,
+        "price": 274199
+      }
+    ],
+    "total": 4637130
+  },
+  {
+    "order_id": "O00028",
+    "datetime": "12/12/2025 10:27",
+    "customer_id": "C003",
+    "staff_id": "S03",
+    "shift_id": "SH1",
+    "items": [
+      {
+        "product_id": "P0028",
+        "quantity": 1,
+        "price": 223977
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 1,
+        "price": 375133
+      },
+      {
+        "product_id": "P0022",
+        "quantity": 4,
+        "price": 398004
+      }
+    ],
+    "total": 2191126
+  },
+  {
+    "order_id": "O00029",
+    "datetime": "12/12/2025 18:55",
+    "customer_id": "C007",
+    "staff_id": "S05",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0046",
+        "quantity": 1,
+        "price": 258886
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 5,
+        "price": 375133
+      },
+      {
+        "product_id": "P0042",
+        "quantity": 2,
+        "price": 257286
+      }
+    ],
+    "total": 2649123
+  },
+  {
+    "order_id": "O00030",
+    "datetime": "12/12/2025 19:05",
+    "customer_id": "C004",
+    "staff_id": "S01",
+    "shift_id": "SH3",
+    "items": [
+      {
+        "product_id": "P0022",
+        "quantity": 4,
+        "price": 398004
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 2,
+        "price": 311375
+      },
+      {
+        "product_id": "P0017",
+        "quantity": 5,
+        "price": 393445
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 1,
+        "price": 591150
+      }
+    ],
+    "total": 4773141
+  },
+  {
+    "order_id": "HD001",
+    "datetime": "2026-02-20 22:17:13",
+    "customer_id": "C008",
+    "items": [
+      {
+        "product_id": "P0001",
+        "name": "Nước tẩy trang Micellar Water",
+        "quantity": 1,
+        "price": 183063
+      },
+      {
+        "product_id": "P0026",
+        "name": "Sữa dưỡng thể Lipikar Baume",
+        "quantity": 1,
+        "price": 235748
+      }
+    ],
+    "raw_total": 418811,
+    "discount_rate": 0.1,
+    "discount_amount": 41881,
+    "total": 376930,
+    "status": "Hoàn thành"
+  },
+  {
+    "order_id": "O00031",
+    "datetime": "26/02/2026 16:42",
+    "customer_id": "C001",
+    "staff_id": "S01",
+    "items": [
+      {
+        "product_id": "P0007",
+        "quantity": 2,
+        "price": 151666,
+        "name": "Nước dưỡng tóc tinh dầu bưởi"
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 1,
+        "price": 311375,
+        "name": "Serum trị nám chuyên sâu"
+      }
+    ],
+    "subtotal": 614707,
+    "discount_rate": 0.05,
+    "discount": 30735.350000000002,
+    "total": 583971.65,
+    "status": "Hoàn thành"
+  }
+]
